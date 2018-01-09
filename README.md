@@ -4,31 +4,34 @@ A foundation for React/Redux/Express projects, with an Express server which both
 
 Created by [Zachary Taylor](http://twitter.com/ztaylor) and :coffee:
 
+---
+
 ### Libraries
 
 * [React](http://reactjs.org): A JavaScript library for building user interfaces
 * [Express](http://expressjs.com): Fast, unopinionated, minimalist web framework for Node.js
-* [Redux](http://redux.js.org): A predictable state container for JavaScript apps.
+* [Redux](http://redux.js.org): A predictable state container for JavaScript apps
 * [React Redux](https://github.com/reactjs/react-redux): Official React bindings for Redux
-* [Redux Thunk](https://github.com/gaearon/redux-thunk): Middleware that allows for action creators that return a function instead of an action.
+* [Redux Thunk](https://github.com/gaearon/redux-thunk): Middleware that allows for action creators that return a function instead of an action
 * [React Router](https://github.com/ReactTraining/react-router): Declarative routing for React
-* [Redux Form](https://redux-form.com/7.2.0/): The best way to manage your form state in Redux.
-* [Styled Components](https://www.styled-components.com): Use the best bits of ES6 and CSS to style your apps.
-* [prop-types](https://github.com/facebook/prop-types): Runtime type checking for React props and similar objects.
+* [Redux Form](https://redux-form.com/7.2.0/): The best way to manage your form state in Redux
+* [Styled Components](https://www.styled-components.com): Use the best bits of ES6 and CSS to style your apps
+* [prop-types](https://github.com/facebook/prop-types): Runtime type checking for React props and similar objects
+* [ESLint](http://eslint.org): The pluggable linting utility for JavaScript and JSX
 
 ---
 
 ### Features
 
-* An Express server setup which both serves the React app and API requests.
-* Example of an API call from the client to the server using Redux and Redux Thunk, rendering the results in the client.
-* React Router v4 configuration, navigating between pages, and showing a 'not found' page.
-* Uses Styled Components to describe component styles in JavaScript.
+* An Express server setup which both serves the React app and API requests
+* Example of an API call from the client to the server using Redux and Redux Thunk, rendering the results in the client
+* React Router v4 configuration, navigating between pages, and showing a 'not found' page
+* Uses Styled Components to describe component styles in JavaScript
 * Hot reloading of both server and client changes
-* Ready for production deploy to Heroku.
-* Example of importing static images in JavaScript.
-* ESLint configuration.
-* Google Fonts and Twitter Bootstrap v4 integration.
+* Ready for production deploy to Heroku
+* Example of importing static images in JavaScript
+* ESLint configuration
+* Google Fonts and Twitter Bootstrap v4 integration
 
 ---
 
@@ -71,9 +74,9 @@ $ git commit -m 'Initial commit'
 
 ---
 
-### Todo
+### To Do
 
-* Implement an example for Redux Form
+* Implement an example of Redux Form
 
 ---
 
