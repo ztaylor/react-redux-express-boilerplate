@@ -32,11 +32,11 @@ Created by [Zachary Taylor](http://twitter.com/ztaylor)
 
 ### Quick Start
 
-1. Clone this repo using `git clone --depth=1 https://github.com/ztaylor/react-redux-express-boilerplate.git`.
-2. Move to the appropriate directory: `cd react-redux-express-boilerplate`.
-3. Install dependencies in the project directory and in the `./client` directory: `yarn install && cd client && yarn install && cd ..`.
-4. Start the server from the project directory: `yarn dev`.
-5. Start the React app from the `./client` directory: `yarn start`.
+1. Clone this repo using `git clone --depth=1 https://github.com/ztaylor/react-redux-express-boilerplate.git`
+2. Move to the appropriate directory: `cd react-redux-express-boilerplate`
+3. Install dependencies in the project directory and in the `./client` directory: `yarn install && cd client && yarn install && cd ..`
+4. Start the server from the project directory: `yarn dev`
+5. Start the React app from the `./client` directory: `yarn start`
 
 ---
 
@@ -62,8 +62,8 @@ $ git add .
 $ git commit -m 'Initial commit'
 ```
 
-2. Make a Heroku account and install Heroku Toolbelt if you haven't already. On a Mac with Homebrew, use `brew install heroku`.
-3. From the project directory, run `heroku create`. Make note of the `herokuapp.com` URL that the 'create' command returns. This is the URL where your app will live. It will look something like `<word>-<word>-<number>.herokuapp.com`.
+2. Make a Heroku account and install Heroku Toolbelt if you haven't already. On a Mac with Homebrew, use `brew install heroku`
+3. From the project directory, run `heroku create`. Make note of the `herokuapp.com` URL that the 'create' command returns. This is the URL where your app will live. It will look something like `<word>-<word>-<number>.herokuapp.com`
 4. Push the code to Heroku by running `git push heroku master`
 5. When the deploy is finished, open your browser to the URL from step 3. It's alive!
 
@@ -71,4 +71,4 @@ $ git commit -m 'Initial commit'
 
 ### License
 
-This project is licensed under the MIT license, Copyright (c) 2018 Zachary Taylor. For more information see LICENSE.md.
+This project is licensed under the MIT license, Copyright :COPYRIGHT: 2018 Zachary Taylor. For more information see LICENSE.md.
