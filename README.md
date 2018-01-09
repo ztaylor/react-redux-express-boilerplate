@@ -2,7 +2,7 @@
 
 A foundation for React/Redux/Express projects, with an Express server which both serves the React files and API requests.
 
-Created by [Zachary Taylor](http://twitter.com/ztaylor)
+Created by [Zachary Taylor](http://twitter.com/ztaylor) and :coffee:
 
 ### Libraries
 
@@ -71,4 +71,4 @@ $ git commit -m 'Initial commit'
 
 ### License
 
-This project is licensed under the MIT license, Copyright :COPYRIGHT: 2018 Zachary Taylor. For more information see LICENSE.md.
+This project is licensed under the MIT license, Copyright :copyright: 2018 Zachary Taylor. For more information see LICENSE.md.
