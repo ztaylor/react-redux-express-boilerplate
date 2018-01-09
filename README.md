@@ -6,15 +6,17 @@ Created by [Zachary Taylor](http://twitter.com/ztaylor) and :coffee:
 
 ### Libraries
 
-* [React](http://reactjs.org)
-* [Express](http://expressjs.com)
-* [Redux](http://redux.js.org)
-* [React Redux](https://github.com/reactjs/react-redux)
-* [Redux Thunk](https://github.com/gaearon/redux-thunk)
-* [React Router](https://github.com/ReactTraining/react-router)
-* [Redux Form](https://redux-form.com/7.2.0/)
-* [Styled Components](https://www.styled-components.com)
+* [React](http://reactjs.org): A JavaScript library for building user interfaces
+* [Express](http://expressjs.com): Fast, unopinionated, minimalist web framework for Node.js
+* [Redux](http://redux.js.org): A predictable state container for JavaScript apps.
+* [React Redux](https://github.com/reactjs/react-redux): Official React bindings for Redux
+* [Redux Thunk](https://github.com/gaearon/redux-thunk): Middleware that allows for action creators that return a function instead of an action.
+* [React Router](https://github.com/ReactTraining/react-router): Declarative routing for React
+* [Redux Form](https://redux-form.com/7.2.0/): The best way to manage your form state in Redux.
+* [Styled Components](https://www.styled-components.com): Use the best bits of ES6 and CSS to style your apps.
 * [prop-types](https://github.com/facebook/prop-types): Runtime type checking for React props and similar objects.
+
+---
 
 ### Features
 
@@ -69,6 +71,12 @@ $ git commit -m 'Initial commit'
 
 ---
 
+### Todo
+
+* Implement an example for Redux Form
+
+---
+
 ### License
 
-This project is licensed under the MIT license, Copyright :copyright: 2018 Zachary Taylor. For more information see LICENSE.md.
+This project is licensed under the MIT license, Copyright 2018 Zachary Taylor. For more information see LICENSE.md.
