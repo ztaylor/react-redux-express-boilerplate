@@ -1,6 +1,6 @@
 # React-Redux-Express boilerplate
 
-A foundation for React/Redux/Express projects, with an Express server which both serves the React files and API requests.
+A foundation for React/Redux/Express projects, with an Express server which serves both the React files and API requests.
 
 Created by [Zachary Taylor](http://twitter.com/ztaylor) and :coffee:
 
