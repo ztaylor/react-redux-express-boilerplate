@@ -14,7 +14,6 @@ Created by [Zachary Taylor](http://twitter.com/ztaylor) and :coffee:
 * [React Redux](https://github.com/reactjs/react-redux): Official React bindings for Redux
 * [Redux Thunk](https://github.com/gaearon/redux-thunk): Middleware that allows for action creators that return a function instead of an action
 * [React Router](https://github.com/ReactTraining/react-router): Declarative routing for React
-* [Redux Form](https://redux-form.com/7.2.0/): The best way to manage your form state in Redux
 * [Styled Components](https://www.styled-components.com): Use the best bits of ES6 and CSS to style your apps
 * [prop-types](https://github.com/facebook/prop-types): Runtime type checking for React props and similar objects
 * [ESLint](http://eslint.org): The pluggable linting utility for JavaScript and JSX
@@ -71,12 +70,6 @@ $ git commit -m 'Initial commit'
 3. From the project directory, run `heroku create`. Make note of the `herokuapp.com` URL that the 'create' command returns. This is the URL where your app will live. It will look something like `<word>-<word>-<number>.herokuapp.com`
 4. Push the code to Heroku by running `git push heroku master`
 5. When the deploy is finished, open your browser to the URL from step 3. It's alive!
-
----
-
-### To Do
-
-* Implement an example of Redux Form
 
 ---
 
