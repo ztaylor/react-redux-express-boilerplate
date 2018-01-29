@@ -38,7 +38,7 @@ Created by [Zachary Taylor](http://twitter.com/ztaylor) and :coffee:
 
 1. Clone this repo using `git clone --depth=1 https://github.com/ztaylor/react-redux-express-boilerplate.git`
 2. Move to the appropriate directory: `cd react-redux-express-boilerplate`
-3. Install dependencies in the project directory and in the `./client` directory: `yarn install && cd client && yarn install && cd ..`
+3. Install server and client dependencies: `yarn install-dev`
 4. Start the server from the project directory: `yarn dev`
 5. Start the React app from the `./client` directory: `yarn start`
 

@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js",
+    "dev": "concurrently -c blue.bold,magenta --kill-others \"nodemon server.js\" \"cd client && yarn start\"",
+    "install-dev": "yarn install && cd client && yarn install && cd ..",
     "heroku-postbuild": "cd client && yarn --production=false && yarn run build"
   },
   "dependencies": {
@@ -13,6 +14,7 @@
     "morgan": "^1.9.0"
   },
   "devDependencies": {
+    "concurrently": "^3.5.1",
     "eslint": "^4.15.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-airbnb-base": "^12.1.0",
