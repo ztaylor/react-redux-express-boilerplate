@@ -27,7 +27,7 @@ In development, server requests from the React app are proxied to the server. Ta
 There may be some conflicting packages after installation on the front end, to resolve this
 
 1. Go to the directory `cd WealthWizard_PartC` then `cd nclient`
-2. Delete the node_modules folder
+2. Delete the `node_modules` folder
 3. Delete the `package-lock.json` file if it exists
 4. Run `npm install` then `npm update`
 
