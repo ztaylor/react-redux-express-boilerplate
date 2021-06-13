@@ -10,7 +10,7 @@ A Form that allows you to input information, and recieve an estimate of your NI 
 2. Move to the appropriate directory: `cd WealthWizard_PartC`
 3. Install server and client dependencies: `yarn install-dev`
 4. Start the server from the project directory: `yarn dev` or start the React app without the sever from the `./client` directory: `yarn start`
-5. You should see a page resembling this screenshot 
+5. You should see a page resembling this screenshot: https://github.com/JamesBoadi/WealthWizard_PartC/blob/master/Screenshot.png
 
 ---
 
