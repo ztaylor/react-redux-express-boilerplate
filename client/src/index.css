@@ -2,4 +2,58 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
+  background: rgb(251,250,255);
+  background: linear-gradient(90deg, rgba(251,250,255,1) 0%, rgba(232,232,232,1) 33%, rgba(255,255,255,1) 100%);
 }
+
+
+.center
+{
+   
+    transform: translate(0, 60px);
+}
+
+.form
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 15rem;
+  height: 25rem;
+  border-radius: 10px;
+  background-color: '#e6e5e7';
+}
+
+@media screen and (max-width: 1200px) { 
+    /*  .app  {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+      }*/
+
+      .form
+      {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        
+        height: 30rem;
+        border-radius: 10px;
+        background-color: '#e6e5e7';
+      }
+
+
+    .income
+    {
+    /*  transform: translate(60px, -15px);*/
+
+    }
+
+}
+

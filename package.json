@@ -10,8 +10,12 @@
     "heroku-postbuild": "cd client && yarn --production=false && yarn run build"
   },
   "dependencies": {
+    "decimal.js": "^3.0.1",
     "express": "^4.16.2",
-    "morgan": "^1.9.0"
+    "moment": "^2.29.1",
+    "morgan": "^1.9.0",
+    "ramda": "^0.27.1",
+    "react-scripts": "^4.0.3"
   },
   "devDependencies": {
     "concurrently": "^3.5.1",
