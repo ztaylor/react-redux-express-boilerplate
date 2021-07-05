@@ -1,4 +1,4 @@
-const test = require('tape');
+/*const test = require('tape');
 const proxyquire = require('proxyquire').noCallThru();
 const RD = require('../utils/ramda-decimal');
 
@@ -165,4 +165,4 @@ test('national-insurance.slice', (t) => {
       assert.deepEquals(actual, RD.decimal(expected));
     });
   });
-});
+});*/

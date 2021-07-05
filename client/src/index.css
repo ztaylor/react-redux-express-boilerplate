@@ -2,58 +2,109 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
-  background: rgb(251,250,255);
-  background: linear-gradient(90deg, rgba(251,250,255,1) 0%, rgba(232,232,232,1) 33%, rgba(255,255,255,1) 100%);
+  background: rgb(87, 146, 223);
+  background: linear-gradient(90deg, rgba(143, 182, 235) 0%, rgb(165, 185, 197) 33%, rgb(203, 187, 240) 100%);
 }
-
 
 .center
 {
-   
     transform: translate(0, 60px);
 }
 
 .form
 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  width: 15rem;
-  height: 25rem;
-  border-radius: 10px;
-  background-color: '#e6e5e7';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 40rem;
+    height: 20rem;
+    border-radius: 10px;
+    background: #e6e5e7;
+    z-index: 1;
 }
 
-@media screen and (max-width: 1200px) { 
-    /*  .app  {
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-      }*/
+.nav-tabs {
+  display: inline-block;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  list-style: none;
+  width: 44.5rem;
+  transform: translateX(-40px);
+}
 
-      .form
-      {
+.nav-tabs > li {
+  margin-bottom: 5px;
+  margin-right: 2rem;
+  line-height: 2rem;
+  border-radius: 10px;
+  color: whitesmoke;
+  background:rgb(216, 186, 17);
+  
+}
+
+.tab-pane {
+  padding: 1rem;
+  display: none;
+  z-index: 999;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+#tab-details:checked ~ .tab-content > .content-details 
+{
+  transform: translate(30px, -110px);
+  display: block;
+}
+
+#tab-details:checked ~ .nav-tabs > #comments,
+.nav-tabs > #final-comments
+{
+  transform: translateY(190px);
+}
+
+#tab-comments:checked ~ .tab-content > .content-comments {
+  transform: translate(26px, -60px);
+  display: block;
+}
+
+#tab-comments:checked ~ .nav-tabs > #final-comments
+{
+  transform: translateY(190px);
+}
+
+#tab-final-comments:checked ~ .tab-content > .content-final-comments {
+  transform: translate(-10px, -20px);
+  display: block;
+}
+
+#tab-final-comments:checked ~ .nav-tabs > #final-comments {
+  transform: translateY(0px);
+}
+
+@media screen and (max-width: 576px) { 
+      .form{
         position: absolute;
-        top: 100%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        
-        height: 30rem;
+        top: 300px;
+        left: 350px;
+        width: 40rem;
+        height: 20rem;
         border-radius: 10px;
-        background-color: '#e6e5e7';
+        background: #e6e5e7;
+        z-index: 1;
+        margin-top: 0;
       }
-
-
-    .income
-    {
-    /*  transform: translate(60px, -15px);*/
-
-    }
-
+     
+      .nav-tabs {
+        display: inline-block;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+        list-style: none;
+        width: 44.5rem;
+        transform: translateX(-40px);
+      }
 }
 

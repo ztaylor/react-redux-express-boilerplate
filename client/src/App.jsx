@@ -1,5 +1,6 @@
 import React from 'react';
 import Home from './Home';
+import Data_ from './Data';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
@@ -17,17 +18,9 @@ const App = () => (
   <Provider store={store}>
 
     <Home/>
+
+
     
-    {/*
-    <Router>
-      <div>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/another_page" component={AnotherPage} />
-          <Route component={NotFound} />
-        </Switch>
-      </div>
-    </Router> */}
 
 
   </Provider>
