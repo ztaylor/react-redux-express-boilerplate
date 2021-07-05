@@ -20,7 +20,6 @@ class Home extends React.Component {
 
         this.register = this.register.bind(this);
         this.getUserData = this.getUserData.bind(this);
-        this.handleDisabledChange = this.handleDisabledChange.bind(this);
         this.submitFirstForm = this.submitFirstForm.bind(this);
         this.submitSecondForm = this.submitSecondForm.bind(this);
         this.submitThirdForm = this.submitThirdForm.bind(this);
