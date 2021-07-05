@@ -17,7 +17,7 @@ Make sure these prerequisites are installed on your system
 * React
 * Redux
 
---
+---
 
 ### Libraries
 
