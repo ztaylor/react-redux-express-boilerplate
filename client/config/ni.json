@@ -1,0 +1,41 @@
+[
+  {
+    "startDate": "2018-04-06",
+    "bands": [
+      {
+        "floor": 0,
+        "ceiling": 702,
+        "rate": 0
+      },
+      {
+        "floor": 702,
+        "ceiling": 3863,
+        "rate": 0.12
+      },
+      {
+        "floor": 3863,
+        "ceiling": 9007199254740991,
+        "rate": 0.02
+      }
+    ]
+  },
+  {
+    "startDate": "2019-04-06",
+    "bands": [{
+        "floor": 0,
+        "ceiling": 719,
+        "rate": 0
+      },
+      {
+        "floor": 719,
+        "ceiling": 4167,
+        "rate": 0.12
+      },
+      {
+        "floor": 4167,
+        "ceiling": 9007199254740991,
+        "rate": 0.02
+      }
+    ]
+  }
+]
