@@ -50,7 +50,7 @@ Make sure these prerequisites are installed on your system
 
 ### Installation
 
-1. Clone this repo using `git clone --depth=1 `
+1. Clone this repo using `git clone --depth=1 https://github.com/JamesBoadi/FinerVision_Application.git`
 2. Move to the appropriate directory: `cd react-redux-express-boilerplate`
 3. Install server and client dependencies: `yarn install-dev`
 4. Start the application from the project directory: `yarn dev` or start the 
