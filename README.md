@@ -1,8 +1,21 @@
-# React-Redux-Express boilerplate
+# FinerVision Application
 
-A foundation for React/Redux/Express projects, with an Express server which serves both the React files and API requests.
+Simple Form Validation and Submission
 
-Created by [Zachary Taylor](http://twitter.com/ztaylor) and :coffee:
+Saves data to SQL database, when you print data after entering an id, navigate to the directory `cd data` to find the created file
+
+---
+
+### Prerequisites 
+
+Make sure these prerequisites are installed on your system
+
+* MySQL 8
+* NodeJS
+* Express
+* Javascript
+* React
+* Redux
 
 ---
 
@@ -17,6 +30,7 @@ Created by [Zachary Taylor](http://twitter.com/ztaylor) and :coffee:
 * [Styled Components](https://www.styled-components.com): Use the best bits of ES6 and CSS to style your apps
 * [prop-types](https://github.com/facebook/prop-types): Runtime type checking for React props and similar objects
 * [ESLint](http://eslint.org): The pluggable linting utility for JavaScript and JSX
+* [AntDesign](https://ant.design/docs/react/introduce) A Front End Development Library
 
 ---
 
@@ -34,15 +48,32 @@ Created by [Zachary Taylor](http://twitter.com/ztaylor) and :coffee:
 
 ---
 
-### Quick Start
+### Installation
 
-1. Clone this repo using `git clone --depth=1 https://github.com/ztaylor/react-redux-express-boilerplate.git`
-2. Move to the appropriate directory: `cd react-redux-express-boilerplate`
+1. Clone this repo using `git clone --depth=1 https://github.com/JamesBoadi/FinerVision_Application.git`
+2. Move to the appropriate directory: `cd FinerVision_Application`
 3. Install server and client dependencies: `yarn install-dev`
-4. Start the server from the project directory: `yarn dev`
-5. Start the React app from the `./client` directory: `yarn start`
+4. Start the application from the project directory: `yarn dev` or start the 
+   React app on its own from the `./client` directory: `yarn start`
 
----
+---   
+
+### Connecting to the Database
+
+This project was developed using MySQL 8, to connect to the database, navigate to the `.env` file and change the credentials
+
+Navigate to the directory that contains the SQL files `cd stored_procedures`. These files can either be
+run using a query engine, or a command line running SQL to perform actions like creating the database or granting permissions 
+
+On UNIX systems, SQL scripts can be run using the following command
+
+`mysql -u user -p < create_table.sql`
+
+then
+
+`mysql -u user -p 'user_info' < store_user_data.sql`
+
+Make sure that the schema is created first and that all users have appropiate permissions
 
 ### Express and React
 
@@ -50,29 +81,4 @@ In this project Express both serves the React files and API requests.
 
 In development, server requests from the React app are proxied to the server. Take a look at the `proxy` field in `./client/package.json` to see where this is set up.
 
-In production (on Heroku), there is a `heroku-postbuild` step that builds the React app and puts it's output files in the `client/build` folder so Express can find them. Take a look at the `heroku-postbuild` script in `./package.json` to see where this is set up.
-
 ---
-
-### Deploying to Heroku
-
-This project is ready to be deployed to Heroku.
-
-1. Heroku requires that your project has a Git repository. Create one, and commit the code:
-
-```
-$ git init
-$ git add .
-$ git commit -m 'Initial commit'
-```
-
-2. Make a Heroku account and install Heroku Toolbelt if you haven't already. On a Mac with Homebrew, use `brew install heroku`
-3. From the project directory, run `heroku create`. Make note of the `herokuapp.com` URL that the 'create' command returns. This is the URL where your app will live. It will look something like `<word>-<word>-<number>.herokuapp.com`
-4. Push the code to Heroku by running `git push heroku master`
-5. When the deploy is finished, open your browser to the URL from step 3. It's alive!
-
----
-
-### License
-
-This project is licensed under the MIT license, Copyright 2018 Zachary Taylor. For more information see LICENSE.md.

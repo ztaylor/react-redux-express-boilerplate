@@ -10,8 +10,13 @@
     "heroku-postbuild": "cd client && yarn --production=false && yarn run build"
   },
   "dependencies": {
+    "dotenv": "^10.0.0",
     "express": "^4.16.2",
-    "morgan": "^1.9.0"
+    "moment": "^2.29.1",
+    "morgan": "^1.9.0",
+    "mysql2": "^2.2.5",
+    "react-scripts": "^4.0.3",
+    "touch": "^3.1.0"
   },
   "devDependencies": {
     "concurrently": "^3.5.1",
